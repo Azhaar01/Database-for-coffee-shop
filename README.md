@@ -37,12 +37,12 @@ Q3. Applying Constraint:
 
 
 ***THE Output for All quiries***
-[Output_Of_Insert_Into_coffee_shop_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Insert_coffee_shop.png)
+![Output_Of_Insert_Into_coffee_shop_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Insert_coffee_shop.png)
 ___
-[Output_Of_Insert_Into_product_type_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/output-insert-into-product-type.png)
+![Output_Of_Insert_Into_product_type_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/output-insert-into-product-type.png)
 ___
-[Output_Of_Insert_Into_customer_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_Into_Customer.png)
+![Output_Of_Insert_Into_customer_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_Into_Customer.png)
 ___
-[Output_Of_Insert_Into_Product_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert-Into-Product.png)
+![Output_Of_Insert_Into_Product_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert-Into-Product.png)
 ___
-[Output_Of_Insert_Into_Bill_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_into_Bill.png)
+![Output_Of_Insert_Into_Bill_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_into_Bill.png)
