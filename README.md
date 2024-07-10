@@ -16,11 +16,11 @@ Q1. DESIGN Phase:
 
 **Here is The ER diagram**
 
-[ER Diagram](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/ER-Diagram.png)
+![ER Diagram](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/ER-Diagram.png)
 
 **Here is The Relational database Schema**
 
-[Relational database Schema](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Relational-database-schema.png)
+![Relational database Schema](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Relational-database-schema.png)
 
 Q2. IMPLEMENTATION Phase:
 Develop your Database and tables in SQL Server Management Studio.
