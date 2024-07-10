@@ -1,5 +1,3 @@
 Alter table BILL modify Bill_date not null;
 
 Delete From PRODUCT_TYPE where Type_number ='60000';
-
-[output of delete statement](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Delete.png)
