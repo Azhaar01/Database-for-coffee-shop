@@ -15,9 +15,11 @@ Q1. DESIGN Phase:
 4. Use the mapping technique to map ER to Relational database Schema.
 
 **Here is The ER diagram**
+
 [ER Diagram](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/ER-Diagram.png)
 
 **Here is The Relational database Schema**
+
 [Relational database Schema](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Relational-database-schema.png)
 
 Q2. IMPLEMENTATION Phase:
@@ -37,6 +39,7 @@ Q3. Applying Constraint:
 
 
 ***THE Output for All quiries***
+
 ![Output_Of_Insert_Into_coffee_shop_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Insert_coffee_shop.png)
 ___
 ![Output_Of_Insert_Into_product_type_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/output-insert-into-product-type.png)
@@ -46,3 +49,33 @@ ___
 ![Output_Of_Insert_Into_Product_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert-Into-Product.png)
 ___
 ![Output_Of_Insert_Into_Bill_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_into_Bill.png)
+___
+![Output_Of_Insert_Into_Emplyee_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_Into_Emplyee.png)
+___
+![Output_Of_Insert_Into_Dependent_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_Into_Dependent.png)
+___
+![Output_Of_Insert_Into_Supplier_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_Into_Supplier.png)
+___
+![Output_Of_Insert_Into_Contain_and_Buys_tables](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_Into_Contain_and_Buys.png)
+___
+![Output_Of_Insert_Into_Take_Order_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_Into_Take_Order.png)
+___
+![Output_Of_Insert_Into_Make_and_Print_tables](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_Into_Make_and_Print.png)
+___
+![Output_Of_Insert_Into_Phone_Number_table](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Insert_Into_Phone_Number.png)
+___
+![Output_Of_Select_statement1](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Select_1.png)
+___
+![Output_Of_Select_statement2](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Select_2.png)
+___
+![Output_Of_Select_statement3](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Select_3.png)
+___
+![Output_Of_Select_statement4](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Select_4.png)
+___
+![Output_Of_Select_statement5](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Select_5.png)
+___
+![Output_Update_Statement1](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Update_1.png)
+___
+![Output_Update_Statement2](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Update_2.png)
+___
+![Output_Delete_Statement](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output_Delete.png)
