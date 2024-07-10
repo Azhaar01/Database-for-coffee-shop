@@ -1,4 +1,4 @@
-** THE project instructions **
+# **THE project instructions:**
 Choose one of the following topics after consulting with your teammate to develop a data model:
 a. Coffee shop
 b. Clinic
