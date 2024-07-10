@@ -1,0 +1,22 @@
+Select First_name, Last_name, Salary,Name as "DEPENDENT_NAME", Relationship
+From EMPLOYEE, DEPENDENT
+where First_name like '%a%' and salary between 5000 and 5500 and
+EMPLOYEE.Employee_ssn = DEPENDENT.Employee_ssn;
+
+Select First_name, Product_name ,Amount ,Cost_of_product
+From PRODUCT, SUPPLIER
+Where PRODUCT.Product_number = SUPPLIER.Product_number;
+
+Select Name as "Coffee_Name", Type_of_product as "Menu", Product_name
+,Cost_of_product as "Cost"
+From COFFEE_SHOP,PRODUCT_TYPE,PRODUCT
+where PRODUCT_TYPE.Type_number=PRODUCT.Type_number;
+
+Select First_name, Middle_name, Last_name, Bill_date
+From CUSTOMER, BILL
+WHERE Bill_date =TO_DATE('2022-4-25','YYYY-MM-DD') AND
+CUSTOMER.Cusromer_ssn = BILL.Cusromer_ssn;
+
+SELECT Name ,COFFEE_SHOP.City ,First_name , SUPPLIER.City
+from COFFEE_SHOP,SUPPLIER
+where COFFEE_SHOP.Shop_ID = SUPPLIER.Shop_ID ;
