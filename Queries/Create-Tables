@@ -1,0 +1,180 @@
+Create Table COFFEE_SHOP(
+Shop_ID char(9) NOT NULL,
+Name VARCHAR(15) NOT NULL,
+Street VARCHAR(15),
+City VARCHAR(10),
+Zipcode VARCHAR(5) NOT NULL,
+PRIMARY KEY(Shop_ID)
+);
+
+Create table PRODUCT_TYPE(
+Type_number CHAR(5) NOT NULL,
+Type_of_product VARCHAR(15) NOT NULL,
+PRIMARY KEY(Type_number)
+);
+
+Create table PRODUCT(
+Product_number CHAR(5) NOT NULL,
+Product_name VARCHAR(15) NOT NULL,
+Type_number CHAR(5) NOT NULL,
+Cost_of_product DECIMAL(6,2) NOT NULL,
+Shop_ID char(9) NOT NULL,
+PRIMARY KEY(Product_number),
+Unique (Product_name),
+FOREIGN KEY(Shop_ID)
+REFERENCES COFFEE_SHOP(Shop_ID)
+ON DELETE CASCADE,
+FOREIGN KEY(Type_number)
+REFERENCES PRODUCT_TYPE(Type_number)
+ON DELETE CASCADE);
+
+Create table CUSTOMER(
+Cusromer_ssn CHAR(9) NOT NULL,
+First_name VARCHAR(15) NOT NULL,
+Middle_name VARCHAR(15),
+Last_name VARCHAR(15) NOT NULL,
+Street VARCHAR(15),
+City CHAR(10),
+Zipcode VARCHAR(5) NOT NULL,
+Shop_ID CHAR(9) NOT NULL,
+PRIMARY KEY(Cusromer_ssn),
+FOREIGN KEY(Shop_ID)
+REFERENCES COFFEE_SHOP(Shop_ID)
+ON DELETE CASCADE
+);
+
+Create table BILL(
+Bill_number CHAR(5) NOT NULL,
+Cusromer_ssn CHAR(9) NOT NULL,
+Customer_name VARCHAR(15) NOT NULL,
+Product_number CHAR(5) NOT NULL,
+Product_name VARCHAR(15) NOT NULL,
+Bill_date DATE,
+Amount_of_product VARCHAR(15) NOT NULL,
+Price DECIMAL(6,2) NOT NULL,
+Shop_ID CHAR(9) NOT NULL,
+PRIMARY KEY(Bill_number),
+Unique (Product_name),
+FOREIGN KEY(Shop_ID)
+REFERENCES COFFEE_SHOP(Shop_ID)
+ON DELETE CASCADE,
+FOREIGN KEY(Cusromer_ssn)
+REFERENCES CUSTOMER(Cusromer_ssn)
+ON DELETE CASCADE,
+FOREIGN KEY(Product_number)
+REFERENCES PRODUCT(Product_number)
+ON DELETE CASCADE
+);
+
+Create table EMPLOYEE(
+Employee_ssn CHAR(9) NOT NULL,
+First_name VARCHAR(15) NOT NULL,
+Last_name VARCHAR(15) NOT NULL,
+Middle_name VARCHAR(15),
+Birth_data Date,
+Sex CHAR,
+Street VARCHAR(15),
+City Char(10),
+Zipcode VARCHAR(5) NOT NULL,
+Salary DECIMAL(6,2),
+Shop_ID CHAR(9) NOT NULL,
+PRIMARY KEY(Employee_ssn),
+FOREIGN KEY(Shop_ID)
+REFERENCES COFFEE_SHOP(Shop_ID)
+ON DELETE CASCADE
+);
+
+Create table DEPENDENT(
+Employee_ssn CHAR(9) NOT NULL,
+Name VARCHAR(15) NOT NULL,
+Sex CHAR,
+Birth_data Date,
+Relationship varchar(8),
+Primary KEY(Employee_ssn,Name),
+FOREIGN KEY(Employee_ssn)
+REFERENCES EMPLOYEE(Employee_ssn)
+ON DELETE CASCADE
+);
+
+Create table SUPPLIER(
+Supplier_ID CHAR(9) NOT NULL,
+First_name VARCHAR(15) NOT NULL,
+Last_name VARCHAR(15) NOT NULL,
+Middle_name VARCHAR(15),
+Product_number CHAR(5) NOT NULL,
+Street VARCHAR(15),
+City Char(10),
+Zipcode VARCHAR(5) NOT NULL,
+Amount VARCHAR(15) NOT NULL,
+Shop_ID CHAR(9) NOT NULL,
+PRIMARY KEY(Supplier_ID),
+FOREIGN KEY(Shop_ID)
+REFERENCES COFFEE_SHOP(Shop_ID)
+ON DELETE CASCADE,
+FOREIGN KEY(Product_number)
+REFERENCES PRODUCT(Product_number)
+ON DELETE CASCADE
+);
+
+Create table CONTAIN(
+Product_number CHAR(5) NOT NULL,
+Bill_number CHAR(5) NOT NULL,
+FOREIGN KEY(Product_number)
+REFERENCES PRODUCT(Product_number)
+ON DELETE CASCADE,
+FOREIGN KEY(Bill_number)
+REFERENCES BILL(Bill_number)
+ON DELETE CASCADE
+);
+
+Create table BUYS(
+Product_number CHAR(5) NOT NULL,
+Cusromer_ssn CHAR(9) NOT NULL,
+FOREIGN KEY(Product_number)
+REFERENCES PRODUCT(Product_number)
+ON DELETE CASCADE,
+FOREIGN KEY(Cusromer_ssn)
+REFERENCES CUSTOMER(Cusromer_ssn)
+ON DELETE CASCADE
+);
+
+create table TAKE_ORDER(
+Employee_ssn CHAR(9) NOT NULL,
+Cusromer_ssn CHAR(9) NOT NULL,
+FOREIGN KEY(Employee_ssn)
+REFERENCES EMPLOYEE(Employee_ssn)
+ON DELETE CASCADE,
+FOREIGN KEY(Cusromer_ssn)
+REFERENCES CUSTOMER(Cusromer_ssn)
+ON DELETE CASCADE
+);
+
+Create table MAKE(
+Employee_ssn CHAR(9) NOT NULL,
+Product_number CHAR(5) NOT NULL,
+FOREIGN KEY(Employee_ssn)
+REFERENCES EMPLOYEE(Employee_ssn)
+ON DELETE CASCADE,
+FOREIGN KEY(Product_number)
+REFERENCES PRODUCT(Product_number)
+ON DELETE CASCADE
+);
+
+Create table PRINT(
+Employee_ssn CHAR(9) NOT NULL,
+Bill_number CHAR(5) NOT NULL,
+FOREIGN KEY(Employee_ssn)
+REFERENCES EMPLOYEE(Employee_ssn)
+ON DELETE CASCADE,
+FOREIGN KEY(Bill_number)
+REFERENCES BILL(Bill_number)
+ON DELETE CASCADE);
+
+Create table PHONE_NUMBER(
+Phone_number CHAR(10) NOT NULL,
+Shop_ID CHAR(9) NOT NULL,
+PRIMARY KEY(Phone_number),
+FOREIGN KEY(Shop_ID)
+REFERENCES COFFEE_SHOP(Shop_ID)
+ON DELETE CASCADE
+);
