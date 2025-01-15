@@ -16,7 +16,7 @@ Q1. DESIGN Phase:
 
 **Here is The ER diagram**
 
-![ER Diagram](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/ER-Diagram.png)
+![ER Diagram](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/ER%20digram%20for%20coffee%20shop%20DataBase.png)
 
 **Here is The Relational database Schema**
 
