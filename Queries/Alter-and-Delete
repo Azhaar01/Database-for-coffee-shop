@@ -1,3 +1,0 @@
-Alter table BILL modify Bill_date not null;
-
-Delete From PRODUCT_TYPE where Type_number ='60000';
