@@ -1,4 +1,3 @@
-
 -- Insert sample data into all tables
 INSERT INTO CoffeeShoptable VALUES ('123456789','Stars coffee','Rabigh','AlSamd','25753')
 SELECT * FROM CoffeeShoptable
