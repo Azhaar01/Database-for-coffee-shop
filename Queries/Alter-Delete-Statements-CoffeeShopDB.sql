@@ -6,6 +6,6 @@ ADD CONSTRAINT CHK_Salary_Positive CHECK (Salary > 0)
 ALTER TABLE Bills
 ALTER COLUMN Bill_Date DATE NOT NULL
 
--- Delete the record from PRODUCT_TYPE where the Type_number is '60000'
+-- Delete the record from PRODUCT_TYPE where the Type_number is '6000'
 DELETE FROM Product_Type
 WHERE Type_Number = 6000;
