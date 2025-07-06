@@ -1,7 +1,0 @@
-update DEPENDENT
-set Birth_data = TO_DATE('2018/12/10','yyyy/mm/dd')
-where Employee_ssn = 122334597;
-
-update EMPLOYEE
-set Middle_name = 'Salem'
-where Employee_ssn =323456771;
