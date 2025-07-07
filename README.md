@@ -96,8 +96,31 @@ EXEC Show_Bills_By_Customer @CustomerName = 'Sarah';
 - Attributes are fully functionally dependent on the primary key
 
 ### 📷 Output Samples
-
+___
 ![Insert-Into-Employees](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output-Insert-Into-Employees.png)
 ___
-
 ![Insert-into-CustomersTable](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output-Insert-into-CustomersTable.png)
+___
+![Select-BranchName-NumberOfCustomers-NumberofProducts](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Select-BranchName-NumberOfCustomers-NumberofProducts.png)
+___
+![Select-Count-Bills-Printed-By-Each-Employee](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Select-Count-Bills-Printed-By-Each-Employee.png)
+___
+![Select-Customers-Not-Have-Any-Bills](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Select-Customers-Not-Have-Any-Bills.png)
+___
+![Select-Employees-With-Salary-Less-Than-5500](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Select-Employees-With-Salary-Less-Than-5500.png)
+___
+![Select-Name-Of-Product-Ordered-By-Cost](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Select-Name-Of-Product-Ordered-By-Cost.png)
+___
+![Select-Total-Sales-For-Each-Customer](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Select-Total-Sales-For-Each-Customer.png)
+___
+![Update-Customer-Salary-To-6000](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Update-Customer-Salary-To-6000.png)
+___
+![Update-Bill-Date](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Update-Bill-Date.png)
+___
+![Alter-Add-Constraint-Check-Salary.](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Alter-Add-Constraint-Check-Salary.png)
+___
+![Alter-Column-Not-Null](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Alter-Column-Not-Null.png)
+___
+![Delete-Type-Number-60000](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Delete-Type-Number-60000.png)
+___
+![EXEC-Stored-Procedure-Show-Bills-By-Customer](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/EXEC-Stored-Procedure-Show-Bills-By-Customer.png)
