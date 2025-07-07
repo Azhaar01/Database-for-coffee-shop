@@ -33,8 +33,8 @@ The database consists of the following main entities with meaningful attributes:
 ![ER Diagram](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/ER%20digram%20for%20coffee%20shop%20DataBase.png)
 
 ### ✅ Mapped Relational Schema
-
 The ER diagram was successfully mapped into a normalized relational schema using SQL tables, including primary and foreign key constraints.
+
 ![Relational database Schema](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Relational-database-schema.png)
 
 ---
