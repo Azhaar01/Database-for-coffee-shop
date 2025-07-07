@@ -99,3 +99,5 @@ EXEC Show_Bills_By_Customer @CustomerName = 'Sarah';
 
 ![Insert-Into-Employees](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output-Insert-Into-Employees.png)
 ___
+
+![Insert-into-CustomersTable](https://github.com/Azhaar01/Database-for-coffee-shop/blob/main/Output/Output-Insert-into-CustomersTable.png)
