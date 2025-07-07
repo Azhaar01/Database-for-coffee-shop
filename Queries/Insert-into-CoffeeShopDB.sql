@@ -18,7 +18,7 @@ INSERT INTO Customers VALUES('274620713','AbdAlaziz','Rayan','Albladi','Rabigh',
 INSERT INTO Customers VALUES('093846191','Rakan','Mohammed','aljuhani','Rabigh','Alsilayyib','25766','123456789')
 INSERT INTO Customers VALUES('387560134','Aljori','AbdAllah','aloslani','Rabigh','Alsubah','25754','123456789')
 INSERT INTO Customers VALUES('329843002','Reham','khaled','Alghamdi','Rabigh','Alsamad','25729','123456789')
-INSERT INTO Customers VALUES ('112468015', 'Elham', 'Hamed', 'Alyoubi', 'Rabigh', 'Alsubah', '25754', '123456789')
+INSERT INTO Customers VALUES('112468015', 'Elham', 'Hamed', 'Alyoubi', 'Rabigh', 'Alsubah', '25754', '123456789')
 SELECT * FROM Customers
 
 
